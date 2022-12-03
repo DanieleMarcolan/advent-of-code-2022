@@ -2,8 +2,8 @@
  * <a href="https://adventofcode.com/2022/day/1">Day 1 challenge</a>
  */
 static void main(String[] args) {
-	print computePart1Solution()
-	print computePart2Solution()
+	println computePart1Solution()
+	println computePart2Solution()
 }
 
 /**
