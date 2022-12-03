@@ -14,7 +14,7 @@ static void main(String[] args) {
  */
 static computePart1Solution() {
 	def score = 0
-	new File("../input.txt").eachLine { match ->
+	new File("../resources/input.txt").eachLine { match ->
 		switch (match.charAt(2)) {
 			case 'X':
 				score += 1
@@ -69,7 +69,7 @@ static computePart1Solution() {
  */
 static computePart2Solution() {
 	def score = 0
-	new File("../input.txt").eachLine { match ->
+	new File("../resources/input.txt").eachLine { match ->
 		switch (match.charAt(2)) {
 			case 'X':
 				switch (match.charAt(0)) {

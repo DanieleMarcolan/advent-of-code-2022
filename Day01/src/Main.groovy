@@ -16,7 +16,7 @@ static computePart1Solution() {
 	def maxCalories = 0
 	def caloriesPerElf = 0
 
-	new File('../input.txt').eachLine {calories ->
+	new File('../resources/input.txt').eachLine {calories ->
 		if (calories != "") {
 			caloriesPerElf += (calories as Integer)
 		}
@@ -42,7 +42,7 @@ static computePart2Solution() {
 	def threeMaxCalories = [0, 0, 0]
 	def caloriesPerElf = 0
 
-	new File('../input.txt').eachLine {calories ->
+	new File('../resources/input.txt').eachLine {calories ->
 		if (calories != "") {
 			caloriesPerElf += (calories as Integer)
 		}
